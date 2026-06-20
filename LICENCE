@@ -1,0 +1,65 @@
+            Commercial Control License (CCL)
+                Version 0.1 - June 2026
+
+1. Definitions:
+
+    "Permission": An official contract signed in writing. Digital media permissions are not included.
+
+    "Software": Any source code, binaries, documentation, or related materials distributed under this License.
+
+    "Author": The individual or entity holding the copyright of the Software.
+
+    "User": Any person or organization that uses, modifies, distributes, or otherwise interacts with the Software.
+
+    "Commercial Use": Any use of the Software in a product or service offered for compensation, including paid services, subscription systems, licensing, or resale.
+
+    "Restriction": Any limitation or prohibition imposed by this License on the use, modification, or distribution of the Software.
+
+    "Authorized Use and Modification (AUM)": The strictly limited right granted to the "User" to run and modify the "Software" solely for private, non-commercial evaluation. 
+    Any use or modification outside this scope is entirely prohibited without explicit written "Permission" from the "Author".
+
+    "Commercial Authorization Agreement (CAA)": The binding written contract mutually executed and signed by both the "Author" and the "User" that defines the specific terms, scope, and conditions of "Commercial Use" permitted for the "Software".
+
+    "Software Support": Any technical assistance, bug fixes, updates, or maintenance provided by the "Author" regarding the "Software". 
+    Unless explicitly stated in a separate "Commercial Authorization Agreement (CAA)", the "Author" has no obligation to provide any "Software Support" to the "User".
+
+    In case of ambiguity, classification of use as Commercial or Non-Commercial shall be determined based on the primary purpose of deployment, not incidental outcomes.
+
+2. Commercial Use Rules:
+
+    The user may use the software for commercial purposes with permission from the author.
+
+    Under all circumstances, the original CCL license text must be preserved.
+
+    The CCL remains the governing license for the Software in all cases, and the CAA shall not modify, replace, or override the terms of the CCL.
+
+    The User and the Author may only make claims against each other that are explicitly stated in the CAA. 
+    Any claims outside the scope of the CAA shall be considered invalid and may be refused by either party.
+
+3. Not Commercial Use Rules:
+
+    Under all circumstances, the original CCL license text must be preserved.
+
+    The CCL remains the governing license for the Software in all cases.
+
+    The user can perform AUM on the software as long as they retain the CCL license text.
+
+4. Disclaimer of Warranty:
+
+    The author is not liable for any non-commercial terms and conditions of the user's use.
+
+    The author may be held liable for materials covered under the CAA, but the author is not liable for any material damages if no such disclaimer is provided in the CAA.
+
+    The author may provide software support to the user in accordance with the provisions of the CAA, and whether or not AUM will be supported may be determined by the CAA. 
+    If the CAA leaves room for discussion regarding whether or not AUM will be supported, then AUM will not be supported.
+
+5. License violation:
+
+    Any violation of this License automatically terminates all rights granted under this License. Such violation constitutes copyright infringement. Any further use of the Software after termination is prohibited unless a new Commercial Authorization Agreement (CAA) or written Permission is explicitly granted by the Author.
+
+© 2026 Batuhan Şenol. All rights reserved unless otherwise specified in a Commercial Authorization Agreement (CAA).
+
+
+
+
+
