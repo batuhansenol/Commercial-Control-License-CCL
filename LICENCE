@@ -36,6 +36,9 @@
     The User and the Author may only make claims against each other that are explicitly stated in the CAA. 
     Any claims outside the scope of the CAA shall be considered invalid and may be refused by either party.
 
+    Commercial products may be open or closed to distribution and sharing, independently of AUM, provided that the conditions are determined by CAA. 
+    If there is no article within the scope of distribution and sharing in the CAA, the software is not subject to distribution or sharing.
+
 3. Not Commercial Use Rules:
 
     Under all circumstances, the original CCL license text must be preserved.
@@ -43,6 +46,8 @@
     The CCL remains the governing license for the Software in all cases.
 
     The user can perform AUM on the software as long as they retain the CCL license text.
+
+    Distribution and sharing of AUM-exposed or non-AUM-exposed projects is free, provided that it is non-commercial.
 
 4. Disclaimer of Warranty:
 
