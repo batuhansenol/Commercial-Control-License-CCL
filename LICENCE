@@ -1,9 +1,12 @@
             Commercial Control License (CCL)
-                Version 0.1 - June 2026
+                Version 0.2 - June 2026
+
+
+This License shall be governed by and construed in accordance with the laws of the country in which the Author is legally domiciled, unless otherwise specified in a Commercial Authorization Agreement (CAA).
 
 1. Definitions:
 
-    "Permission": It is a formally signed contract or permission made via email.
+    "Permission": A written authorization granted by the Author, including signed agreements and email communications.
 
     "Software": Any source code, binaries, documentation, or related materials distributed under this License.
 
@@ -15,8 +18,7 @@
 
     "Restriction": Any limitation or prohibition imposed by this License on the use, modification, or distribution of the Software.
 
-    "Authorized Use and Modification (AUM)": The strictly limited right granted to the "User" to run and modify the "Software" solely for private, non-commercial evaluation. 
-    Any use or modification outside this scope is entirely prohibited without explicit written "Permission" from the "Author".
+    "Authorized Use and Modification (AUM)": Any modification made to the Software, including but not limited to additions, removals, adaptations, improvements, refactoring, or other alterations.
 
     "Commercial Authorization Agreement (CAA)": The binding written contract mutually executed and signed by both the "Author" and the "User" that defines the specific terms, scope, and conditions of "Commercial Use" permitted for the "Software".
 
@@ -52,8 +54,6 @@
 4. Disclaimer of Warranty:
 
     The author is not liable for any non-commercial terms and conditions of the user's use.
-
-    The author may be held liable for materials covered under the CAA, but the author is not liable for any material damages if no such disclaimer is provided in the CAA.
 
     The author may provide software support to the user in accordance with the provisions of the CAA, and whether or not AUM will be supported may be determined by the CAA. 
     If the CAA leaves room for discussion regarding whether or not AUM will be supported, then AUM will not be supported.
