@@ -1,6 +1,6 @@
 # Commercial Control License (CCL)
 
-> **Version 0.1 — June 2026**
+> **Version 0.2 — June 2026**
 > Copyright © 2026 Batuhan Şenol. All rights reserved unless otherwise specified in a Commercial Authorization Agreement (CAA).
 
 ---
