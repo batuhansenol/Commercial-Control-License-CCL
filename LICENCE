@@ -1,5 +1,5 @@
 Commercial Control License (CCL)
-Version 0.4 - June 2026
+Version 0.5 - June 2026
 
 This License shall be governed by and construed in accordance with the laws of the country in which the Author is legally domiciled, unless otherwise specified in a Commercial Authorization Agreement (CAA).
 
@@ -8,6 +8,10 @@ This License shall be governed by and construed in accordance with the laws of t
    "Permission": A written authorization granted by the Author, including signed agreements, email communications, or other written authorization methods.
 
    Permission may be granted independently of a Commercial Authorization Agreement (CAA). However, a CAA may define and include permissions within its scope.
+
+   At the sole discretion of the Author, Permission alone may be sufficient for Commercial Use.
+
+   However, if the Author rejects or refuses to grant Permission for Commercial Use, a valid Commercial Authorization Agreement (CAA) shall be required for any Commercial Use.
 
    "Software": Any source code, binaries, documentation, or related materials distributed under this License.
 
@@ -35,6 +39,12 @@ This License shall be governed by and construed in accordance with the laws of t
 
    To the extent permitted by applicable law, contracts formed through electronic signatures, digital signatures, acceptance by email, or other legally recognized digital agreement methods shall be considered valid CAAs.
 
+   Where Commercial Use is conducted by or on behalf of an informal group, the members of that group who are authorized to engage in Commercial Use must be explicitly identified by name within the CAA.
+
+   Any member of an informal group not explicitly identified within the CAA shall have no rights to engage in Commercial Use under this License.
+
+   For a CAA involving an informal group to be valid, it must contain the signature of the Author and the signature of at least one named member of the informal group.
+
    "Software Support": Any technical assistance, bug fixes, updates, or maintenance provided by the Author regarding the Software.
 
    Unless explicitly stated in a separate Commercial Authorization Agreement (CAA), the Author has no obligation to provide any Software Support to the User.
@@ -47,6 +57,8 @@ This License shall be governed by and construed in accordance with the laws of t
 
    Under all circumstances, the original CCL license text must be preserved.
 
+   The CCL license text must be placed at the top of the source code or included in its entirety within a LICENSE file located in the Software's directory.
+
    The CCL remains the governing license for the Software in all cases, and the CAA shall not modify, replace, or override the terms of the CCL.
 
    The User and the Author may only make claims against each other that are explicitly stated in the CAA.
@@ -57,9 +69,19 @@ This License shall be governed by and construed in accordance with the laws of t
 
    If there is no article within the scope of distribution and sharing in the CAA, the Software is not subject to distribution or sharing.
 
+   If the CAA does not explicitly contain a distribution or sharing clause, distribution, redistribution, publication, sharing, sublicensing, or making the Software available to third parties is strictly prohibited.
+
+   Distribution rights shall only exist when explicitly granted within the CAA.
+
+   Unless explicitly stated within the CAA, no rights, licenses, permissions, or commercial authorizations relating to the Software may be transferred, assigned, sublicensed, delegated, or otherwise conveyed to any third party.
+
+   Any authorized transfer of rights must be explicitly permitted and defined within the CAA.
+
 3. Not Commercial Use Rules:
 
    Under all circumstances, the original CCL license text must be preserved.
+
+   The CCL license text must be placed at the top of the source code or included in its entirety within a LICENSE file located in the Software's directory.
 
    The CCL remains the governing license for the Software in all cases.
 
