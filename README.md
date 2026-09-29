@@ -1,7 +1,7 @@
 # Commercial Control License (CCL)
 
-> **Version 0.5 — June 2026**
-> Copyright © 2026 Batuhan Şenol. All rights reserved unless otherwise specified in a Commercial Authorization Agreement (CAA).
+> **Version 0.6 (Draft) — September 2026**
+> Copyright © 2026 Batuhan Şenol. All rights reserved unless otherwise specified in a valid Commercial Authorization Agreement (CAA) or written Permission.
 
 ---
 
@@ -15,27 +15,30 @@
 6. [Commercial Use](#commercial-use)
 7. [Non-Commercial Use](#non-commercial-use)
 8. [Commercial Authorization Agreement (CAA)](#commercial-authorization-agreement-caa)
-9. [Authorized Use and Modification (AUM)](#authorized-use-and-modification-aum)
-10. [Software Support](#software-support)
-11. [Warranty and Liability](#warranty-and-liability)
-12. [License Violations](#license-violations)
-13. [How to Request Permission](#how-to-request-permission)
-14. [FAQ](#faq)
-15. [Full License Text](#full-license-text)
+9. [Adaptation and Modification (AM)](#adaptation-and-modification-am)
+10. [Informal Groups](#informal-groups)
+11. [Patents](#patents)
+12. [Software Support](#software-support)
+13. [Warranty and Liability](#warranty-and-liability)
+14. [License Violations](#license-violations)
+15. [How to Request Permission](#how-to-request-permission)
+16. [FAQ](#faq)
+17. [Full License Text](#full-license-text)
 
 ---
 
 ## What is CCL?
 
-The **Commercial Control License (CCL)** is a source-available software license designed to give the author full control over how their software is used commercially, while allowing extensive freedom for non-commercial evaluation, modification, and distribution.
+The **Commercial Control License (CCL)** is a source-available software license designed to give the author control over how their software is used commercially, while allowing broad freedom for non-commercial use, modification, and distribution.
 
-This model is designed for developers, cybersecurity researchers, and creators who want their work to be freely accessible for learning and community use—but who want to retain economic and strategic control over commercial exploitation of their software.
+It is meant for developers, security researchers, and creators who want their work to be freely accessible for learning and community use, but who want to keep economic and strategic control over commercial exploitation.
 
-CCL separates use cases into two clear lanes:
-- **Non-commercial use** → Free, no approval needed. You can modify, distribute, and share as long as you preserve the license.
-- **Commercial use** → Requires explicit written permission from the Author.
+CCL separates use into two lanes:
 
-This License is governed by and construed in accordance with the laws of the country in which the Author is legally domiciled, unless otherwise specified in a Commercial Authorization Agreement (CAA).
+- **Non-commercial use** → Free, no approval needed. You can use, modify, distribute, and share, as long as you preserve the license text.
+- **Commercial use** → Requires explicit written Permission or a signed Commercial Authorization Agreement (CAA) from the Author.
+
+CCL is designed as an international license. It is governed by the laws of the country in which the Author is legally domiciled, unless a valid CAA specifies otherwise.
 
 ---
 
@@ -43,193 +46,225 @@ This License is governed by and construed in accordance with the laws of the cou
 
 | Use Case | Allowed? | Requires Permission? |
 |---|---|---|
-| Personal/private evaluation | ✅ Yes | No |
-| Modifying the code (AUM) | ✅ Yes | No |
+| Personal/private use and evaluation | ✅ Yes | No |
+| Modifying the code (AM) non-commercially | ✅ Yes | No |
 | Sharing/distributing non-commercially | ✅ Yes | No |
 | Accepting sponsorships for a non-commercial project | ✅ Yes | No |
-| Using in a paid product or service | ❌ No | Yes — Permission / CAA required |
-| Using in an advertisement-supported service | ❌ No | Yes — Permission / CAA required |
-| Reselling or sublicensing | ❌ No | Yes — Permission / CAA required |
-| Removing the CCL license text | ❌ No | Never allowed |
+| Free service on a free host that shows the *host's* ads | ✅ Yes | No |
+| Integrating into a separate independent work (non-commercial) | ✅ Yes | No (the CCL-covered part stays under CCL) |
+| Paid product, subscription, or paid SaaS | ❌ No | Yes: Permission / CAA |
+| Service where *you* run ads or earn ad revenue | ❌ No | Yes: Permission / CAA |
+| Reselling or sublicensing | ❌ No | Yes: Permission / CAA |
+| Removing or altering the CCL license text | ❌ No | Never allowed |
 
 ---
 
 ## Key Definitions
 
 ### Permission
-A written authorization granted by the Author, including signed agreements, email communications, or other written authorization methods.
-
-Permission may be granted independently of a Commercial Authorization Agreement (CAA). However, a CAA may define and include permissions within its scope.
-
-At the sole discretion of the Author, Permission alone may be sufficient for Commercial Use. However, if the Author rejects or refuses to grant Permission for Commercial Use, a valid Commercial Authorization Agreement (CAA) shall be required for any Commercial Use.
-
-### Software
-Any source code, binaries, documentation, or related materials distributed under this License.
-
-### Author
-The individual or entity holding the copyright of the Software.
-
-### User
-Any person, organization, or informal group that uses, modifies, distributes, or otherwise interacts with the Software.
-
-### Commercial Use
-Any use of the Software in a product or service offered for compensation, including paid services, subscription systems, licensing, resale, or other revenue-generating commercial activities.
-
-**Important Distinctions:**
-- **Sponsorships:** Sponsorship alone shall not constitute Commercial Use.
-- **Advertisements:** The use of the Software in advertisement-supported services, services displaying advertisements, or services generating advertising revenue *shall* be considered Commercial Use.
-
-In case of ambiguity, classification of use as Commercial or Non-Commercial shall be determined based on the primary purpose of deployment, not incidental outcomes.
-
-### Restriction
-Any limitation or prohibition imposed by this License on the use, modification, or distribution of the Software.
-
-### Authorized Use and Modification (AUM)
-Any modification, adaptation, derivative work, or reorganization of the Software. This extensively includes: additions, removals, alterations, improvements, refactoring, optimization, bug fixes, patches, forks, integrations, packaging, repackaging, porting, derivative works, configuration changes, or any other technical or functional modification of any part of the Software.
+A **unilateral** written authorization granted by the Author (signed declaration, formal email, or another verifiable written method) that allows a specific use of the Software.
 
 ### Commercial Authorization Agreement (CAA)
-The binding written contract mutually accepted by both the Author and the User that defines the specific terms, scope, conditions, and any granted permissions relating to Commercial Use of the Software.
+A **bilateral**, legally binding written contract signed by both the Author and the User. It defines the terms, scope, conditions, limitations, and financial obligations of a specific Commercial Use. A CAA can only exist for Commercial Use.
 
-All permissions granted under a CAA must be explicitly stated. No permission shall be considered granted unless expressly specified within the CAA.
+### Commercial Use
+Any use, deployment, or integration of the Software in a product, environment, or service offered for compensation: paid services, subscriptions, licensing, resale, or other revenue-generating activities.
 
-A CAA can *only* be established for Commercial Use. Any purported CAA relating solely to Non-Commercial Use shall be deemed null and void.
+Important distinctions:
 
-For a CAA to be valid, it must be recognizable and enforceable as a contract under the laws of the country in which the Author is legally domiciled. Contracts formed through electronic signatures, digital signatures, acceptance by email, or other legally recognized digital agreement methods shall be considered valid CAAs to the extent permitted by applicable law.
+- **Ambiguity:** classification is based on the **primary purpose** of the deployment, not incidental outcomes.
+- **SaaS / cloud:** Commercial Use **only if** the service itself is offered for a fee or generates direct revenue.
+- **Free hosting ads:** incidental ads placed strictly by a third-party free hosting provider are **not** Commercial Use.
+- **Your own ads:** advertising revenue from platforms, websites, or services under **your** direct control is direct revenue and **is** Commercial Use.
+- **Sponsorship:** sponsorship alone is not Commercial Use, unless it is construed as a commercial transaction for services or products under applicable statutory law.
 
-Where Commercial Use is conducted by or on behalf of an informal group, the members of that group who are authorized to engage in Commercial Use must be explicitly identified by name within the CAA. Any member of an informal group not explicitly identified within the CAA shall have no rights to engage in Commercial Use under this License. For a CAA involving an informal group to be valid, it must contain the signature of the Author and the signature of at least one named member of the informal group.
+### Adaptation and Modification (AM)
+Any modification, adaptation, derivative work, or reorganization of the Software: additions, removals, alterations, refactoring, optimization, bug fixes, patches, forks, integrations, packaging, porting, or any other technical modification.
 
-### Software Support
-Any technical assistance, bug fixes, updates, or maintenance provided by the Author regarding the Software. Unless explicitly stated in a separate CAA, the Author has no obligation to provide any Software Support.
+### Informal Group
+An unincorporated entity, hackathon team, or collective without separate legal personality.
+
+### Software, Author, User, Software Support
+- **Software:** source code, binaries, documentation, or related materials distributed under this License.
+- **Author:** the individual or legally recognized entity holding the copyright and other intellectual property rights.
+- **User:** any individual, legally recognized entity, or Informal Group that uses, modifies, distributes, or otherwise interacts with the Software.
+- **Software Support:** technical assistance, maintenance, updates, or bug fixes provided by the Author.
 
 ---
 
 ## What You CAN Do
 
-### Without any permission (Non-Commercial):
-- **Evaluate the Software** — Download, run, and test the Software.
-- **Perform AUM** — Make extensive modifications, refactor code, fix bugs, or port the Software.
-- **Distribute and Share** — Distribution and sharing of AUM-exposed or unmodified projects is completely free, provided that it is strictly non-commercial and the CCL license text is retained.
-- **Accept Sponsorships** — You may receive sponsorships for your non-commercial project using this Software.
+### Without any permission (Non-Commercial)
+- **Use** the Software: download, run, and test it.
+- **Perform AM:** modify, refactor, fix bugs, fork, or port it.
+- **Distribute and share** the Software or your derivative works, as long as it is strictly non-commercial and the CCL text is preserved.
+- **Accept sponsorships** for your non-commercial project.
+- **Integrate it into your own separate work.** CCL has no "viral" copyleft effect on your entirely separate, independent works. The integrated Software itself stays under CCL and must remain non-commercial.
 
-### With Permission or a signed CAA (Commercial):
-- **Use Commercially** — Integrate the Software into revenue-generating, ad-supported, or paid products as defined by the granted Permission or CAA.
-- **Define Distribution Terms** — Determine whether your commercial product remains closed-source or open, strictly based on the CAA terms.
-- **Receive Software Support** — Obtain technical assistance if explicitly negotiated in the CAA.
+### With Permission or a signed CAA (Commercial)
+- **Use commercially** as defined by the Permission or CAA.
+- **Define distribution terms:** whether your commercial product is open or closed to distribution is decided by the CAA.
+- **Receive Software Support** if it is explicitly written into the CAA.
 
 ---
 
 ## What You CANNOT Do
 
-- **Remove or alter the CCL license text.** The original license must be preserved in all copies, distributions, and modifications under all circumstances.
-- **Override CCL with a CAA.** The CCL remains the governing license in all cases; the CAA operates within its boundaries and cannot replace or modify it.
-- **Distribute commercially without authorization.** If the CAA does not explicitly grant distribution and sharing rights, distribution, redistribution, publication, sharing, sublicensing, or making the Software available to third parties is strictly prohibited.
-- **Use ad-revenue to fund your project without permission.** If your service displays ads, it is Commercial Use.
-- **Make extra-contractual claims.** Any claims between the User and Author outside the scope of a signed CAA are invalid and may be refused by either party.
-- **Transfer rights without explicit CAA authorization.** No rights, licenses, permissions, or commercial authorizations may be transferred, assigned, sublicensed, delegated, or otherwise conveyed to any third party unless explicitly permitted and defined within the CAA.
+- **Remove or alter the CCL license text.** It must be preserved in its entirety, in all cases, commercial or not. Place it at the top of source files or in a prominent `LICENSE` file in the root directory.
+- **Override the core of CCL with a CAA.** A CAA can grant specific commercial rights but cannot invalidate, waive, or override the core provisions of CCL (Sections 2, 5, 6, and 7), except for the liability exception clause in Section 7.
+- **Distribute commercially without authorization.** If the CAA has no explicit distribution, sublicensing, or sharing clause, redistribution or making the Software available to third parties is strictly prohibited.
+- **Use your own ad revenue to fund a project without permission.**
+- **Make extra-contractual claims.** Claims between User and Author are limited to those explicitly stated in the CAA.
+- **Transfer rights** unless the CAA explicitly authorizes it.
 
 ---
 
 ## Commercial Use
 
-Commercial use is permitted **only** under the following conditions:
+Any Commercial Use is **strictly prohibited** unless you obtain explicit Permission or a valid CAA.
 
-1. The User has obtained explicit written Permission from the Author. At the Author's sole discretion, Permission alone may be sufficient. If the Author refuses to grant Permission, a **Commercial Authorization Agreement (CAA)** is required.
-2. The original CCL license text is preserved.
-3. The CAA determines whether the product can be distributed. If there is no specific article regarding distribution/sharing in the CAA, the software may not be distributed or shared with any third party.
-
-*Note: You and the Author may only make claims against each other that are explicitly stated in the CAA. Any claims outside the scope of the CAA are invalid.*
+- At the Author's sole discretion, Permission alone may be enough.
+- The Author may decline to grant a simple Permission and instead require a detailed, conditional CAA.
+- The original CCL text must always be preserved.
+- The CAA decides whether the product can be distributed. No clause means no distribution.
 
 ---
 
 ## Non-Commercial Use
 
-Non-commercial use grants you broad freedom under **Authorized Use and Modification (AUM)**:
+Non-commercial use grants you broad freedom:
 
 1. You may freely use, adapt, fork, and port the Software.
-2. You may freely distribute and share the Software (modified or unmodified).
-3. The original CCL license text must be preserved.
+2. You may freely distribute and share it, modified or unmodified.
+3. The original CCL text must be preserved.
 4. A CAA is neither required nor applicable.
 
 ---
 
-## Authorized Use and Modification (AUM)
+## Commercial Authorization Agreement (CAA)
 
-AUM recognizes the reality of modern software development. You are not limited to just viewing the code; you have the right to reorganize, refactor, patch, and optimize the Software.
+- A CAA must be recognizable and enforceable as a contract under the laws of the country in which the Author is legally domiciled.
+- To the extent permitted by applicable law, electronic signatures, digital signatures, explicit acceptance by email, and other legally recognized digital methods count as valid CAAs.
+- A purported CAA for Non-Commercial Use is void.
+- Claims between the parties are limited to what the CAA explicitly states.
 
-Under Non-Commercial rules, you are fully empowered to share these AUM-exposed projects with the community.
+---
+
+## Adaptation and Modification (AM)
+
+You are not limited to viewing the code. You may reorganize, refactor, patch, and optimize the Software, and share those modified versions with the community under the non-commercial rules.
+
+---
+
+## Informal Groups
+
+- A CAA for an Informal Group must contain the Author's signature and the signature of at least one **explicitly named** representative of the group.
+- Any member not explicitly identified in the CAA has **no** right to engage in Commercial Use.
+- **CAA breach:** the named representative(s) who signed carry the contractual liability.
+- **Fundamental CCL breach:** any individual member who commits one is personally and directly liable for copyright infringement, whether or not a CAA exists.
+
+---
+
+## Patents
+
+CCL grants **copyright permissions only**. The Author reserves all patent rights, held now or filed in the future. No express or implied patent license, right, or immunity is granted to the User.
 
 ---
 
 ## Software Support
 
-The Author has **no obligation** to provide any Software Support (technical assistance, updates, bug fixes) unless explicitly stated in a separate CAA.
-
-Whether or not AUM (your modifications) will be supported may be determined by the CAA. If the CAA leaves any room for discussion about supporting AUM, it defaults to not being supported.
+The Author has **no obligation** to provide Software Support for the original Software or for any AM, unless a CAA explicitly requires it.
 
 ---
 
 ## Warranty and Liability
 
-The Author is not liable for any non-commercial terms and conditions of the User's use. The Software is provided as-is for non-commercial purposes. Liability and support for commercial deployments exist solely as defined within the boundaries of a signed CAA.
+The Software is provided **"AS IS"**, without warranty of any kind. The Author is not liable for any claim or damages arising from the Software or its use.
+
+**Exception:** the Author accepts liability **only** if the Author explicitly, specifically, and in writing assumes it within a valid CAA.
+
+- No CAA → the Author is not liable.
+- CAA is silent on liability → the Author is not liable.
+- CAA explicitly assumes liability, signed by the Author → the Author is liable as stated.
+
+The limitations of liability survive termination of the License.
 
 ---
 
 ## License Violations
 
-Any violation of this License automatically terminates all rights granted under this License.
-Such a violation constitutes **copyright infringement**. Any further use of the Software after termination is prohibited unless a new written Permission or Commercial Authorization Agreement (CAA) is explicitly granted by the Author.
+**Any** violation of this License automatically and immediately terminates all rights granted under it. There is **no cure period and no grace period**.
+
+After termination, any continued use, modification, or distribution is willful copyright infringement. Further use requires a newly executed CAA or new written Permission from the Author. The limitations of liability and copyright reservations survive termination.
 
 ---
 
 ## How to Request Permission
 
-To obtain Permission or negotiate a Commercial Authorization Agreement (CAA) for commercial use, ad-supported services, or specific distribution rights, please contact the Author directly:
+To obtain Permission or negotiate a CAA, contact the Author:
 
 - **Author:** Batuhan Şenol
-- **IT & Jurisdiction Base:** İzmir, Türkiye
-- **License Version:** CCL v0.5 — June 2026
+- **License Version:** CCL v0.6 (Draft), September 2026
 
-When reaching out, please include your intended commercial context, the scope of deployment, and any specific requirements regarding Authorized Use and Modification (AUM) or Software Support.
+Please include your intended commercial context, the scope of deployment, distribution needs, and any requirements around AM or Software Support.
 
 ---
 
 ## FAQ
 
-**Q: Can I use this Software in my open-source project?**
-Yes, provided the project is non-commercial. Under CCL v0.5, you are free to distribute and share modifications.
+**Q: Is CCL open source?**
+No. CCL is *source-available*. It allows broad non-commercial freedom but restricts commercial use, so it does not meet the OSI open-source definition.
 
-**Q: Can I get sponsored to work on an open-source project that uses this Software?**
-Yes. Sponsorship alone does not constitute Commercial Use under CCL v0.5.
+**Q: Can I use this in my non-commercial open-source project?**
+Yes. You may use, modify, and distribute it, keeping the CCL text. The CCL-covered part stays under CCL and must remain non-commercial.
 
-**Q: My free app uses this Software, but I have banner ads in the app. Is this allowed?**
-No, not without Permission. The license explicitly states that services displaying advertisements or generating advertising revenue are considered Commercial Use.
+**Q: Does using it force my whole project under CCL?**
+No. CCL has no viral copyleft effect on your entirely separate, independent works. The integrated Software itself stays under CCL.
 
-**Q: Can I fork the Software and publish the fork publicly?**
-Yes. Distribution and sharing of AUM-exposed projects are completely free under non-commercial terms.
+**Q: Can I get sponsored?**
+Yes. Sponsorship alone is not Commercial Use, unless it is legally construed as a commercial transaction for services or products. If a sponsor receives specific services or privileges in exchange, it may count as commercial. When in doubt, ask the Author.
 
-**Q: Does the CAA replace the CCL for my commercial project?**
-No. The CCL remains the governing license in all cases. The CAA simply defines the specific terms of the permitted Commercial Use and cannot replace or override the CCL.
+**Q: I host a free demo on a free tier (Vercel, Netlify, etc.) and the host shows its own ads. Is that a violation?**
+No. Incidental ads placed strictly by a third-party free hosting provider are not Commercial Use.
 
-**Q: Can Permission be granted without a formal CAA?**
-Yes. At the Author's sole discretion, written Permission alone may be sufficient for Commercial Use (e.g., via email). However, if the Author refuses to grant Permission, a valid CAA is required.
+**Q: I put banner ads on my own site that uses the Software. Allowed?**
+Not without Permission. Ad revenue from services under your direct control is direct revenue and counts as Commercial Use.
 
-**Q: Are electronic or email-based agreements valid as a CAA?**
-Yes, to the extent permitted by applicable law. Contracts formed through electronic signatures, digital signatures, or acceptance by email are considered valid CAAs under CCL v0.5.
+**Q: Can I run the unmodified Software as a paid web service?**
+Not without Permission or a CAA. A SaaS is Commercial Use if the service is offered for a fee or generates direct revenue. A free SaaS is not, by itself, Commercial Use.
 
-**Q: What if the CAA doesn't mention whether I can distribute my commercial product?**
-If there is no distribution or sharing clause in the CAA, any form of distribution, redistribution, publication, sharing, sublicensing, or making the Software available to third parties is strictly prohibited.
+**Q: Can Permission be granted without a CAA?**
+Yes, at the Author's sole discretion (for example by email). The Author may also insist on a detailed CAA instead.
 
-**Q: My team is an informal group. Can we enter into a CAA?**
-Yes, but all members authorized to engage in Commercial Use must be explicitly identified by name within the CAA. Any member not named in the CAA has no rights to Commercial Use. The CAA must include the Author's signature and the signature of at least one named member of the group.
+**Q: Are email or e-signature agreements valid as a CAA?**
+Yes, to the extent permitted by applicable law.
 
-**Q: Will the Author fix bugs in the modifications (AUM) I make?**
-No. Even under a commercial agreement, if the CAA leaves any room for discussion about supporting AUM, it defaults to not being supported.
+**Q: Can the Author be made liable for guarantees, for example if my company funds development?**
+Yes, but only through a CAA in which the Author explicitly assumes that liability in writing. Otherwise the Author has no liability.
 
-**Q: Which country's laws govern this License?**
-This License is governed by the laws of the country in which the Author is legally domiciled (Türkiye), unless otherwise specified in a CAA.
+**Q: Does a CAA replace CCL?**
+No. CCL stays the governing license. A CAA grants specific commercial rights and may include the Section 7 liability exception, but cannot override CCL's core provisions.
+
+**Q: What if the CAA says nothing about distribution?**
+Then distribution, sublicensing, and making the Software available to third parties is strictly prohibited.
+
+**Q: My team is an informal group. What if one member didn't sign?**
+Only members explicitly named in the CAA may engage in Commercial Use. An unnamed member has no commercial rights, and if they breach CCL's fundamental terms they are personally liable for copyright infringement.
+
+**Q: I accidentally violated the license. Do I get time to fix it?**
+No. Termination is automatic and immediate, with no cure period. To continue, you need new written Permission or a new CAA from the Author.
+
+**Q: Does CCL give me a patent license?**
+No. Only copyright permissions are granted. All patent rights are reserved.
+
+**Q: Will the Author fix bugs in my modifications?**
+No, unless a CAA explicitly requires it.
+
+**Q: Which country's laws apply?**
+The laws of the country in which the Author is legally domiciled, unless a valid CAA says otherwise.
 
 ---
 
 ## Full License Text
 
-The authoritative and legally binding text of CCL v0.5 is distributed alongside this Software in the `LICENSE` file. In any event of ambiguity, the `LICENSE` file takes precedence over this summary.
+The authoritative and legally binding text of CCL v0.6 is distributed alongside this Software in the `LICENSE` file. If this README and the `LICENSE` file differ in any way, the **`LICENSE` file takes precedence**.
