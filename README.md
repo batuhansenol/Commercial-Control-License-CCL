@@ -1,6 +1,6 @@
 # Commercial Control License (CCL)
 
-> **Version 0.6 (Draft) — September 2026**
+> **Version 0.6 — September 2026**
 > Copyright © 2026 Batuhan Şenol. All rights reserved unless otherwise specified in a valid Commercial Authorization Agreement (CAA) or written Permission.
 
 ---
@@ -204,7 +204,7 @@ After termination, any continued use, modification, or distribution is willful c
 To obtain Permission or negotiate a CAA, contact the Author:
 
 - **Author:** Batuhan Şenol
-- **License Version:** CCL v0.6 (Draft), September 2026
+- **License Version:** CCL v0.6, September 2026
 
 Please include your intended commercial context, the scope of deployment, distribution needs, and any requirements around AM or Software Support.
 
